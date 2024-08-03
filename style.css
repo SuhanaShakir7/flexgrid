@@ -1,0 +1,229 @@
+.h1 {
+    background-color: white;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    align-items: center;
+    padding: auto;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    font-size: x-large;
+    place-content: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    
+    
+}
+
+.main {
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    place-content: center;
+}
+
+.template {
+    background-color: white(228, 54, 54);
+    display: grid;
+    width: 350px;
+    height: 480px;
+    grid-template-rows: auto auto auto;
+
+    padding: 10px;
+    gap: 10px;
+    border: 5px solid rgb(22, 22, 73);
+    margin: 10px;
+    grid-template-columns: auto auto auto;
+    ;
+}
+
+.Flex {
+    background-color: white(228, 54, 54);
+    display: grid;
+    width: 350px;
+    height: 480px;
+    grid-template-rows: auto auto auto;
+    border: 4px solid rgb(24, 196, 47);
+    padding: 10px;
+    gap: 10px;
+   
+    margin: 10px;
+    grid-template-columns: auto auto auto;
+
+}
+
+.grid {
+    background-color: white(228, 54, 54);
+    display: grid;
+    width: 350px;
+    height: 480px;
+    grid-template-rows: auto auto auto;
+  color: white;
+  font-size: 25px;
+  margin: auto;
+  text-align: center;
+
+  align-items: center;
+  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    gap: 10px;
+    border: 5px solid rgb(68, 20, 8);
+    margin: 10px;
+    grid-template-columns: auto auto auto;
+    ;
+}
+
+.item1 {
+    width: auto;
+    height: 80px;
+    grid-column: 1/4;
+    background-color: rgb(13, 16, 59);
+}
+
+.item2 {
+    width: auto;
+    height: 80px;
+    grid-column: 2/4;
+    background-color: rgb(13, 16, 59);
+
+}
+
+.item3 {
+    width: auto;
+    height: 70px;
+    grid-column: 2/4;
+    background-color: rgb(13, 16, 59);
+}
+
+.item4 {
+    width: auto;
+    height: 160px;
+
+    grid-column: 1/2;
+    grid-row: 2/4;
+
+ background-color: rgb(13, 16, 59);
+}
+
+.item5 {
+    grid-column: 1/4;
+    width: auto;
+
+    height: 150px;
+
+    background-color: rgb(13, 16, 59);
+}
+
+.item6 {
+    width: auto;
+    height: 50px;
+
+    grid-column: 1/4;
+    background-color: rgb(13, 16, 59);
+}
+
+.item11 {
+    width: auto;
+    height: 80px;
+    background-color: rgb(236, 86, 31);
+    grid-column: 1/4;
+}
+
+
+.item22 {
+    width: auto;
+    height: 80px;
+    grid-column: 2/4;
+    background-color: rgb(236, 86, 31);
+
+}
+
+.item33 {
+    width: auto;
+    height: 70px;
+    grid-column: 2/4;
+    background-color: rgb(236, 86, 31);
+
+}
+
+.item44 {
+    width: auto;
+    height: 160px;
+
+    grid-column: 1/2;
+    grid-row: 2/4;
+
+
+    background-color: rgb(236, 86, 31);
+}
+
+.item55 {
+    grid-column: 1/4;
+    width: auto;
+
+    height: 150px;
+ background-color: rgb(236, 86, 31);
+    
+}
+
+.item66 {
+    width: auto;
+    height: 50px;
+
+    grid-column: 1/4;
+    background-color: rgb(236, 86, 31);
+}
+
+.item110 {
+    width: auto;
+    height: 80px;
+    background-color: rgb(13, 16, 59);
+    grid-column: 1/4;
+}
+
+
+.item220 {
+    width: auto;
+    height: 80px;
+    grid-column: 2/4;
+    background-color: rgb(13, 16, 59);
+
+}
+
+.item330 {
+    width: auto;
+    height: 70px;
+    grid-column: 2/4;
+    background-color: rgb(13, 16, 59);
+}
+
+.item440 {
+    width: auto;
+    height: 160px;
+
+    grid-column: 1/2;
+    grid-row: 2/4;
+
+
+    background-color: rgb(13, 16, 59);
+}
+
+.item550 {
+    grid-column: 1/4;
+    width: auto;
+
+    height: 150px;
+
+    background-color: rgb(13, 16, 59);
+}
+
+.item660 {
+    width: auto;
+    height: 50px;
+
+    grid-column: 1/4;
+    background-color: rgb(13, 16, 59);
+}
